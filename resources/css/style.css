@@ -1,0 +1,28 @@
+html {
+    overflow: hidden;
+}
+
+.container {
+    width: 60%;
+    background-color: #00af95;
+    margin-left: 0;
+    margin-top: 25%;
+    padding-left: 15%;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    height: 100vh;
+}
+
+.title:after {
+    margin-top: 5px;
+    display: block;
+    content: '';
+    width: 100%;
+    border-bottom: 2px dotted #00d1b2;
+}
+
+.subtitle {
+    margin-bottom: 3px;
+}
